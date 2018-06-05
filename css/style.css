@@ -1,0 +1,133 @@
+
+._first_search_bar{
+	margin: 35vh auto;
+}
+
+._bold_font{
+	font-family: 'Montserrat', sans-serif;
+}
+._light_font{
+	font-family: 'Teko', sans-serif;
+	font-weight: 600;
+
+}
+
+._full_page_conatiner{
+	display: none;
+	overflow-x: hidden;
+}
+._window_animation{
+	height: 40vh;
+	background-color: yellow;
+}
+
+._window_weather{
+	height: 28.8vh;
+}
+._container_map{
+	height: 70vh;
+	background-color: black;
+}
+._window_googlemap{
+	height: 50vh;
+	background-color: brown;
+}
+
+
+
+._button_options{
+}
+
+
+._window_footer{
+	height: 10vh;
+}
+
+
+._gradient_shade{
+	background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(45deg, #fcfcfc 0%, #ffaf7b 27%, #d76d77 59%, #3a1c71 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #fcfcfc 0%,#ffaf7b 27%,#d76d77 59%,#3a1c71 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #fcfcfc 0%,#ffaf7b 27%,#d76d77 59%,#3a1c71 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+._solid_shade{
+	background: #C9D6FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+._animation_container_background{
+	width: 100%;
+	height: 40vh;
+	background-size: cover;
+	background-repeat-y: no-repeat; 
+	animation-name: _background_animation;
+    animation-duration: 1200s;
+    animation-iteration-count: infinite;
+   	animation-timing-function: linear;
+   	position: absolute;
+   	top: 0vh;
+}
+
+
+@keyframes _background_animation {
+    from {background-position-x: 0px;}
+    to {background-position-x: -180000px;}
+}
+._sky{
+	width: 100%;
+	height: 40vh;
+	background: #3a1c71; /* Old browsers */
+	background: -moz-linear-gradient(top, #3a1c71 0%, #d76d77 25%, #d76d77 25%, #ffaf7b 52%, #fcfcfc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #3a1c71 0%,#d76d77 25%,#d76d77 25%,#ffaf7b 52%,#fcfcfc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #3a1c71 0%,#d76d77 25%,#d76d77 25%,#ffaf7b 52%,#fcfcfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	position: relative;
+	top: 0vh;
+}
+._stars{
+	background-image: url(../img/background_stars.svg);
+}
+._moon{
+	background-image: url(../img/background_moon.svg);
+	animation-duration: 1500000s;
+}
+
+._trees{
+	background-image: url(../img/background_trees.svg);
+}
+._building{
+	background-image: url(../img/background_building.svg);
+}
+._foreground_trees{
+	background-image: url(../img/foreground_trees.svg);
+}
+._streetlight_lamps{
+	background-image: url(../img/foreground_light_posts.svg);
+	display: block;
+}
+._streetlight_lights{
+	background-image: url(../img/foreground_lights.svg);
+}
+._cycle{
+	width: 20vh;
+	height: 20vh;
+	background-image: url(../img/cycle_anim.svg);
+	position: absolute;
+	bottom: -3vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+._road{
+	background-color: #3c3c3d;
+	height: 2.2vh;
+	top: 37.8vh;
+}
+._content{
+	left: auto;
+	right: 0;
+	top: 6vh;
+	background-color: white;
+	display: none;
+}
